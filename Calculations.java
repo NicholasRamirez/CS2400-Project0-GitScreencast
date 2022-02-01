@@ -24,6 +24,7 @@ public class Calculations
       System.out.print("Enter a second string: ");
       String secondWord = kb.nextLine();
 
+      // presents calculations that are going to be implemented
       sum = x + y;
       difference = x - y;
       product = x * y;
@@ -31,6 +32,7 @@ public class Calculations
       modulus = x % y;
       quotientTwo = ((float)x) / ((float)y);
 
+      // both last characters of each word are grabbed
       char firstLast = firstWord.charAt(firstWord.length()-1);
       char secondLast = secondWord.charAt(secondWord.length()-1);
 
